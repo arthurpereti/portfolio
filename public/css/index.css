@@ -1,0 +1,11 @@
+.projetos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 50px;
+}
+
+.card{
+    width: 18rem;
+}
