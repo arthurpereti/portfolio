@@ -1,3 +1,30 @@
+.apresentacaopessoal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 10rem;
+
+
+    height: 80vh;
+    width: auto;
+}
+
+.apresentacaopessoal #text_apresentacaopessoal{
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-size: 1.65rem;
+}
+
+.apresentacaopessoal #img_apresentacaopessoal img{
+   height: 10rem;
+   
+}   
+
+
+/* ================================================================================ */
+
+
 .projetos {
     display: flex;
     justify-content: center;
@@ -8,4 +35,8 @@
 
 .card{
     width: 18rem;
+}
+
+.projetostittlecenter{
+    text-align: center;
 }
